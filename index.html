@@ -3,10 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Webpage</title>
+    <title>My Personal Website</title>
+    <style>
+        /* Base styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5rem;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Personal Website</h1>
-    <p>This is a place where I showcase my resume, personal profile, and projects.</p>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <p>Your Name | Your Profession</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! My name is [Your Name], and I'm a [Your Profession/Field]. I am passionate about [Your Interests] and love working on projects that challenge me to learn and grow.</p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <ul>
+                <li><strong>Education:</strong> [Your Education Details]</li>
+                <li><strong>Experience:</strong> [Your Work Experience]</li>
+                <li><strong>Skills:</strong> [Your Key Skills]</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Project 1:</strong> [Description and Link]</li>
+                <li><strong>Project 2:</strong> [Description and Link]</li>
+                <li><strong>Project 3:</strong> [Description and Link]</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/yourusername</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">https://linkedin.com/in/yourusername</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 [Your Name]. Built with ❤️ using GitHub Pages.</p>
+    </footer>
 </body>
 </html>
